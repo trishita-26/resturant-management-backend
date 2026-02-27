@@ -1,4 +1,4 @@
-const Person = require('../models/Person');
+const Person = require('../models/person');
 const { generateToken } = require('../middleware/auth');
 
 /**
@@ -56,3 +56,4 @@ const login = async (req, res, next) => {
 };
 
 module.exports = { signup, login };
+
