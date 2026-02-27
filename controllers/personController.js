@@ -1,4 +1,4 @@
-const Person = require('../models/Person');
+const Person = require('../models/person');
 
 const VALID_WORK_TYPES = ['chef', 'waiter', 'manager'];
 
@@ -87,3 +87,4 @@ const deletePerson = async (req, res, next) => {
 };
 
 module.exports = { getAll, getProfile, getByWork, updatePerson, deletePerson };
+
